@@ -1,0 +1,30 @@
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+kbd{
+    display: block;
+    font-size: 4rem;
+}
+.key{
+    border: .2rem solid black;
+    border-radius: .5rem;
+    text-align: center;
+    transition: all .07s ease;
+    margin: 1rem;
+    padding: 1rem .5rem;
+}
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: black;
+  }
+.playing {
+    transform: scale(1.1);
+    border-color: #93C5FD;
+    color:#3B82F6 ;
+    box-shadow: 0 0 1rem #3B82F6;
+  }
