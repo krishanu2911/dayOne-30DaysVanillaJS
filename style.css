@@ -28,3 +28,19 @@ kbd{
     color:#3B82F6 ;
     box-shadow: 0 0 1rem #3B82F6;
   }
+  .footer{
+ 
+    /* background-color: var(--primary-color); */
+    padding: 2rem 1rem;
+    text-align: center;
+ 
+    
+}
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    padding: 0rem 0.5rem;
+    display: inline;
+}
